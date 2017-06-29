@@ -1,0 +1,16 @@
+{
+  "package_name": "Dapp-angular-starter",
+  "version": "0.0.3",
+  "description": "Dapp starter kit angular",
+  "authors": [
+    "SylTi"
+  ],
+  "keywords": [
+    "ethereum",
+    "angular"
+  ],
+  "dependencies": {
+    "tokens": "^0.0.2"
+  },
+  "license": "MIT"
+}
