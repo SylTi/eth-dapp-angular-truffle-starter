@@ -10,11 +10,9 @@ import "./libs/zeppelin/ownership/Ownable.sol";
 contract TokenTest is HumanStandardToken(1000000, "Sample Token", 18, "STERC20"), Ownable {
 
     bool public _circuitBreaker;
-    address public _owner;
 
     function TokenTest() {
         _circuitBreaker = false;
-        _owner = msg.sender;
     }
 
     modifier circuitBreaker() {
