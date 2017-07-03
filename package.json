@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "postinstall": "cp -R node_modules/zeppelin-solidity/contracts/ contracts/libs/zeppelin/",
+    "postinstallAll": "cp -R node_modules/zeppelin-solidity/contracts/ contracts/libs/zeppelin/",
     "ng": "ng",
     "start": "truffle compile && truffle migrate && ng serve",
     "build": "ng build",
